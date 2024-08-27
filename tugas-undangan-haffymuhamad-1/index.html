@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="invitation-container">
+        <h1>Undangan Pernikahan</h1>
+        <img src="wedding.jpg" alt="Couple" class="couple-image">
+        <p>Dengan memohon rahmat dan ridho Allah SWT, kami mengundang Anda untuk menghadiri pernikahan kami:</p>
+
+        <div class="couple-name">
+            <h2>cowok</h2>
+            <p>&</p>
+            <h2>cewek</h2>
+        </div>
+
+        <div class="event-details">
+            <p>Tanggal: 20 Agustus 2024</p>
+            <p>Waktu: 10:00 WIB</p>
+            <p>Tempat: Aula Gedung Pernikahan, samarinda</p>
+        </div>
+
+        <div class="rsvp">
+            <h3>RSVP</h3>
+            <p>Mohon konfirmasi kehadiran Anda:</p>
+            <button onclick="openRSVPForm()">
+                <img src="wedding.jpg" alt="RSVP Icon" class="rsvp-icon"> Konfirmasi Kehadiran
+            </button>
+        </div>
+    </div>
+
+    <div id="rsvp-form" class="rsvp-form">
+        <h3>Konfirmasi Kehadiran</h3>
+        <input type="text" id="name" placeholder="Nama Anda">
+        <input type="email" id="email" placeholder="Email">
+        <button onclick="submitRSVP()">Kirim</button>
+        <button onclick="closeRSVPForm()">Tutup</button>
+    </div>
+
+    <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=117.14096724987031%2C-0.5018000228631119%2C117.14347779750824%2C-0.49998960096304806&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=19/-0.50089/117.14222">Lihat peta lebih besar</a></small>
+
+    <script src="script.js"></script>
+</body>
+</html>
